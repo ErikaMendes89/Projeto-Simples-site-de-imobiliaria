@@ -1,0 +1,143 @@
+/* Estilos gerais da página */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos das seções */
+  .section {
+    height:100vb; /* Define a altura de cada seção para ocupar toda a tela */
+    padding: 50px;
+    color: #fff;
+  }
+  .section.PRINCIPAL {
+    height: 250px; /* Define a altura desejada para a seção */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #36bcdd;
+  }
+  
+  .section.PRINCIPAL img {
+    margin-bottom: 10px;
+    align-items: center; /* Adiciona espaço entre a imagem e os links */
+  }
+  
+  .section.PRINCIPAL a {
+    font-size: 20px; 
+    color: #333;
+    margin: 0 10px; 
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+  }
+  .section.BANNER {
+    height: 50vh; /* Defina a altura desejada para a div */
+    background-image: url("banner.jpg"); /* URL da imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a div */
+    background-position: center; /* Centraliza a imagem na div */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+  }
+  /* Estilos específicos para cada seção */
+  .SOBRE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajuste a altura desejada */
+    color: #333;
+  }
+  .SOBRE img{
+    height: 250px;
+    width: 350px;
+  }
+
+  .SOBRE p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 1.5;
+  }
+  .SOBRE h2{
+    font-size: 20px;
+    color:#62c3d4;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .SOBRE h1{
+    font-size: 40px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  .SERVICOS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#7ca4dd;
+    align-items: center;
+    height: 50vh;
+  }
+  .SERVICOS h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+.SERVICOS p{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SERVICOS UL{
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+li{
+ text-align: center;
+}
+.CORRETORES {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #efefef;
+    height: 50vh;
+    color:#333;
+    align-items: center;
+  }
+
+  .CORRETORES h2{
+    font-size: 40px;
+    text-align: center;
+    color: #62c3d4;
+  }
+
+  .CORRETORES p{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .CORRETORES img{
+    height: 200px;
+    width: 250px;
+  }
+  
+  .CONTATO {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7ca4dd;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .PRINCIPAL{
+    background-color: #BBB;
+  }
+  
+  .BANNER {
+    background-color: #DDD;
+  }
+  
